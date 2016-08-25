@@ -17,6 +17,14 @@ class TestMinedMindsFunction <Minitest::Test
 		assert_equal("mined", mined_minds(3))
 	end
 
+	def test_5_equal_minds
+		assert_equal("minds", mined_minds(5))
+	end
+
+
+
+
+
 
 end
 
