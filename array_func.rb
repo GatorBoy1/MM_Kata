@@ -3,6 +3,10 @@ def array_mined_minds
 	(1..100).each do |number|
 	if number == 3
 		number = "mined"
+	
+elsif number == 5
+		number = "minds"	
+
 	else
 	number = number
 	end
@@ -10,3 +14,4 @@ def array_mined_minds
 	end
 my_array
 end
+
